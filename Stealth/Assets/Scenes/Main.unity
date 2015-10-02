@@ -128,7 +128,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100088, guid: 3b059b06d05c0e04ba42674f84feac25, type: 3}
       propertyPath: m_TagString
-      value: Player
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: 3b059b06d05c0e04ba42674f84feac25, type: 3}
       propertyPath: m_Controller
