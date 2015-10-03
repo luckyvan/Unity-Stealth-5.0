@@ -7,7 +7,7 @@ public class LaserSwitchDeactivation : MonoBehaviour {
 
 	public Material unlockedMaterial;
 
-	public GameObject player;
+	private GameObject player;
 
 	private GameObject screen; //the screen to indicate whether the switch is locked or unlocked.
 
@@ -18,6 +18,8 @@ public class LaserSwitchDeactivation : MonoBehaviour {
 		audioSource = GetComponent<AudioSource>();
 
 		screen = transform.Find("prop_switchUnit_screen").gameObject;
+
+		player = GameObject.FindWithTag(Tags.player);
 
 	}
 

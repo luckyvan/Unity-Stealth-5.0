@@ -508,7 +508,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   laser: {fileID: 1147418063}
   unlockedMaterial: {fileID: 2100000, guid: cf76a820d93717a4d8149687f9e7edf5, type: 2}
-  player: {fileID: 62993034}
 --- !u!82 &135710945
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5656,7 +5655,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d78b80b4f42e23542aec2a5c85a5260c, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: d78b80b4f42e23542aec2a5c85a5260c, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -5838,7 +5837,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   laser: {fileID: 1035546850}
   unlockedMaterial: {fileID: 2100000, guid: cf76a820d93717a4d8149687f9e7edf5, type: 2}
-  player: {fileID: 62993034}
 --- !u!82 &461017015
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6743,7 +6741,7 @@ Transform:
   - {fileID: 693329191}
   - {fileID: 507235937}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
 --- !u!1 &1128819819
 GameObject:
   m_ObjectHideFlags: 0
@@ -7209,11 +7207,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400206, guid: 57dfe383f531046378c3c0e44f1b6021, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 100206, guid: 57dfe383f531046378c3c0e44f1b6021, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 57dfe383f531046378c3c0e44f1b6021, type: 2}
@@ -7600,7 +7598,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   laser: {fileID: 1862781466}
   unlockedMaterial: {fileID: 2100000, guid: cf76a820d93717a4d8149687f9e7edf5, type: 2}
-  player: {fileID: 62993034}
 --- !u!82 &1578410112
 AudioSource:
   m_ObjectHideFlags: 0
@@ -8153,7 +8150,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   laser: {fileID: 222047320}
   unlockedMaterial: {fileID: 2100000, guid: cf76a820d93717a4d8149687f9e7edf5, type: 2}
-  player: {fileID: 62993034}
 --- !u!4 &1954796025 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 432138de29842674aa5fa7bf63ba33cb, type: 3}
