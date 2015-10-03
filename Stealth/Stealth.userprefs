@@ -1,23 +1,26 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PlayerInventory.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\KeyPickup.cs">
     <Files>
       <File FileName="Assets\Scripts\HashIDs.cs" Line="5" Column="2" />
       <File FileName="Assets\Scripts\PlayerMovement.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Tags.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\CameraMovement.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\LaserPlayerDetection.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\CameraMovement.cs" Line="20" Column="3" />
+      <File FileName="Assets\Scripts\LaserPlayerDetection.cs" Line="18" Column="37" />
       <File FileName="Assets\Done\DoneScripts\GameControllerScripts\DoneLastPlayerSighting.cs" Line="1" Column="1" />
       <File FileName="Assets\Done\DoneScripts\AlarmSystems\DoneLaserPlayerDetection.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\LaserSwitchDeactivation.cs" Line="10" Column="9" />
+      <File FileName="Assets\Scripts\LaserSwitchDeactivation.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\LaserBlink.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\CCTVPlayerDetection.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\AlarmLight.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\PlayerInventory.cs" Line="6" Column="21" />
+      <File FileName="Assets\Scripts\KeyPickup.cs" Line="23" Column="23" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="D:\UnityProjects\5.0\Unity-Stealth-5.0\Stealth\Assets\Scripts\KeyPickup.cs" line="18" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
