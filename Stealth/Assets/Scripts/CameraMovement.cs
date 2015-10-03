@@ -6,7 +6,7 @@ public class CameraMovement : MonoBehaviour
 	public float smooth = 1.5f;         // The relative speed at which the camera will catch up.
 	
 	
-	public Transform player;           // Reference to the player's transform.
+	private Transform player;           // Reference to the player's transform.
 	private Vector3 relCameraPos;       // The relative position of the camera from the player.
 	private float relCameraPosMag;      // The distance of the camera from the player.
 	private Vector3 newPos;             // The position the camera is trying to reach.
@@ -17,7 +17,7 @@ public class CameraMovement : MonoBehaviour
 		// Setting up the reference.
 		// WARNING: always return a game object named "char_ethan(clone)"
 		//player = GameObject.FindGameObjectWithTag(Tags.player).transform;
-
+		player = GameObject.FindWithTag (Tags.player).transform;
 		// Setting the relative position as the initial relative position of the camera in the scene.
 		relCameraPos = transform.position - player.position;
 		relCameraPosMag = relCameraPos.magnitude - 0.5f; //since the player position is from the foot, in case raycast to the ground.
